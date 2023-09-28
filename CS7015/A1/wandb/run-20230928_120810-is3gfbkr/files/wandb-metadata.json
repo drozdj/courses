@@ -1,0 +1,50 @@
+{
+    "os": "Linux-5.15.0-1041-azure-x86_64-with-glibc2.31",
+    "python": "3.10.8",
+    "heartbeatAt": "2023-09-28T12:08:11.393387",
+    "startedAt": "2023-09-28T12:08:10.893260",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/workspaces/courses/CS7015/A1/a1.py",
+    "codePathLocal": "a1.py",
+    "codePath": "CS7015/A1/a1.py",
+    "git": {
+        "remote": "https://github.com/jdrrl/courses",
+        "commit": "4be09664dcb62ad937c3d0a27a84a17ad794f4bb"
+    },
+    "email": "84878143+jdrrl@users.noreply.github.com",
+    "root": "/workspaces/courses",
+    "host": "codespaces-2ea301",
+    "username": "codespace",
+    "executable": "/home/codespace/.python/current/bin/python3",
+    "cpu_count": 1,
+    "cpu_count_logical": 2,
+    "cpu_freq": {
+        "current": 2834.3985000000002,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2445.428,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3223.369,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 31.32598876953125,
+            "used": 14.150318145751953
+        }
+    },
+    "memory": {
+        "total": 7.753856658935547
+    }
+}

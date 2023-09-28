@@ -1,0 +1,478 @@
+2023-09-28 12:08:10,898 INFO    StreamThr :9945 [internal.py:wandb_internal():86] W&B internal server running at pid: 9945, started at: 2023-09-28 12:08:10.897961
+2023-09-28 12:08:10,904 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: status
+2023-09-28 12:08:10,910 INFO    WriterThread:9945 [datastore.py:open_for_write():85] open: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/run-is3gfbkr.wandb
+2023-09-28 12:08:10,910 DEBUG   SenderThread:9945 [sender.py:send():380] send: header
+2023-09-28 12:08:10,920 DEBUG   SenderThread:9945 [sender.py:send():380] send: run
+2023-09-28 12:08:11,283 INFO    SenderThread:9945 [dir_watcher.py:__init__():211] watching files in: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files
+2023-09-28 12:08:11,283 INFO    SenderThread:9945 [sender.py:_start_run_threads():1122] run started: is3gfbkr with start time 1695902890.908433
+2023-09-28 12:08:11,290 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: check_version
+2023-09-28 12:08:11,290 DEBUG   SenderThread:9945 [sender.py:send_request():407] send_request: check_version
+2023-09-28 12:08:11,369 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: run_start
+2023-09-28 12:08:11,370 DEBUG   HandlerThread:9945 [system_info.py:__init__():32] System info init
+2023-09-28 12:08:11,370 DEBUG   HandlerThread:9945 [system_info.py:__init__():47] System info init done
+2023-09-28 12:08:11,370 INFO    HandlerThread:9945 [system_monitor.py:start():181] Starting system monitor
+2023-09-28 12:08:11,370 INFO    SystemMonitor:9945 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-28 12:08:11,370 INFO    HandlerThread:9945 [system_monitor.py:probe():201] Collecting system info
+2023-09-28 12:08:11,371 INFO    SystemMonitor:9945 [interfaces.py:start():190] Started cpu monitoring
+2023-09-28 12:08:11,372 INFO    SystemMonitor:9945 [interfaces.py:start():190] Started disk monitoring
+2023-09-28 12:08:11,373 INFO    SystemMonitor:9945 [interfaces.py:start():190] Started memory monitoring
+2023-09-28 12:08:11,374 INFO    SystemMonitor:9945 [interfaces.py:start():190] Started network monitoring
+2023-09-28 12:08:11,393 DEBUG   HandlerThread:9945 [system_info.py:probe():196] Probing system
+2023-09-28 12:08:11,394 DEBUG   HandlerThread:9945 [system_info.py:_probe_git():181] Probing git
+2023-09-28 12:08:11,400 DEBUG   HandlerThread:9945 [system_info.py:_probe_git():189] Probing git done
+2023-09-28 12:08:11,400 DEBUG   HandlerThread:9945 [system_info.py:probe():244] Probing system done
+2023-09-28 12:08:11,400 DEBUG   HandlerThread:9945 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-1041-azure-x86_64-with-glibc2.31', 'python': '3.10.8', 'heartbeatAt': '2023-09-28T12:08:11.393387', 'startedAt': '2023-09-28T12:08:10.893260', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/workspaces/courses/CS7015/A1/a1.py', 'codePathLocal': 'a1.py', 'codePath': 'CS7015/A1/a1.py', 'git': {'remote': 'https://github.com/jdrrl/courses', 'commit': '4be09664dcb62ad937c3d0a27a84a17ad794f4bb'}, 'email': '84878143+jdrrl@users.noreply.github.com', 'root': '/workspaces/courses', 'host': 'codespaces-2ea301', 'username': 'codespace', 'executable': '/home/codespace/.python/current/bin/python3', 'cpu_count': 1, 'cpu_count_logical': 2, 'cpu_freq': {'current': 2834.3985000000002, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2445.428, 'min': 0.0, 'max': 0.0}, {'current': 3223.369, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 31.32598876953125, 'used': 14.150318145751953}}, 'memory': {'total': 7.753856658935547}}
+2023-09-28 12:08:11,401 INFO    HandlerThread:9945 [system_monitor.py:probe():211] Finished collecting system info
+2023-09-28 12:08:11,401 INFO    HandlerThread:9945 [system_monitor.py:probe():214] Publishing system info
+2023-09-28 12:08:11,401 DEBUG   HandlerThread:9945 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-09-28 12:08:11,401 DEBUG   HandlerThread:9945 [system_info.py:_save_pip():68] Saving pip packages done
+2023-09-28 12:08:11,401 INFO    HandlerThread:9945 [system_monitor.py:probe():216] Finished publishing system info
+2023-09-28 12:08:11,414 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,414 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-09-28 12:08:11,420 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-28 12:08:11,421 DEBUG   SenderThread:9945 [sender.py:send_request():407] send_request: stop_status
+2023-09-28 12:08:11,459 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-28 12:08:11,588 DEBUG   SenderThread:9945 [sender.py:send():380] send: telemetry
+2023-09-28 12:08:11,753 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,753 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_adf48a208b1e9f1a3b47.png with policy now
+2023-09-28 12:08:11,798 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,798 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_7f9147937f711e4ba16e.png with policy now
+2023-09-28 12:08:11,799 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,799 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_b2def1b499b96beac370.png with policy now
+2023-09-28 12:08:11,799 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,799 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_65989982ca9140b3494a.png with policy now
+2023-09-28 12:08:11,799 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,799 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_f0d95813663251b7fdfc.png with policy now
+2023-09-28 12:08:11,800 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,800 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_cd8689e0f2a035303171.png with policy now
+2023-09-28 12:08:11,800 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,800 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_4d144877c9093c197264.png with policy now
+2023-09-28 12:08:11,800 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,800 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_7b4106bc3ff373926955.png with policy now
+2023-09-28 12:08:11,801 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,801 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_352ec8bcbb7f793c3857.png with policy now
+2023-09-28 12:08:11,801 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,801 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_b6a39637dfc1e6079a40.png with policy now
+2023-09-28 12:08:11,801 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,801 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_51c65586c47daf7edb5f.png with policy now
+2023-09-28 12:08:11,802 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,802 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_adf9d6a5f4d4d22a12aa.png with policy now
+2023-09-28 12:08:11,805 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,805 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_d96e00453fd5c26dea0a.png with policy now
+2023-09-28 12:08:11,806 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,806 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_2a31766b19b7381d5670.png with policy now
+2023-09-28 12:08:11,806 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,806 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_c61f549f621b6f649f67.png with policy now
+2023-09-28 12:08:11,806 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,806 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_ad311e34b215d443b011.png with policy now
+2023-09-28 12:08:11,808 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,808 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_ba8afe5093296b9da95d.png with policy now
+2023-09-28 12:08:11,815 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,816 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_e72b844d9dfd6da87839.png with policy now
+2023-09-28 12:08:11,824 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,824 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_c5a7eaa6a52ac0e794bb.png with policy now
+2023-09-28 12:08:11,834 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,835 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_c994f021ba36204ca3c1.png with policy now
+2023-09-28 12:08:11,839 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,839 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_6e827361c1d87468c268.png with policy now
+2023-09-28 12:08:11,844 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,844 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_38a78edc13346d3c129e.png with policy now
+2023-09-28 12:08:11,900 INFO    wandb-upload_0:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/d74qvc5p-wandb-metadata.json
+2023-09-28 12:08:11,901 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,904 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_811d9a6e54bca1da4d2e.png with policy now
+2023-09-28 12:08:11,930 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,930 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_f9ae28233f32bf80214f.png with policy now
+2023-09-28 12:08:11,935 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,935 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_1e8e2a9377834f0a8913.png with policy now
+2023-09-28 12:08:11,939 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,939 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_a71bcd3a642fb0b0a111.png with policy now
+2023-09-28 12:08:11,946 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,946 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_25764ebef84544263a07.png with policy now
+2023-09-28 12:08:11,950 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,950 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_2dec0a94bb6e75710eba.png with policy now
+2023-09-28 12:08:11,965 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,965 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_0db66911a17398e927ab.png with policy now
+2023-09-28 12:08:11,965 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,965 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_ae78f3590bb6ab576c71.png with policy now
+2023-09-28 12:08:11,968 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,968 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_1dbfdddc3e42d1785cf7.png with policy now
+2023-09-28 12:08:11,973 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,973 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_c6085070a7b25ac4c55e.png with policy now
+2023-09-28 12:08:11,984 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,988 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_4e3042e3ba5ec4a9917f.png with policy now
+2023-09-28 12:08:11,992 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,992 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_2a4ed30223224f8e2c78.png with policy now
+2023-09-28 12:08:11,998 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:11,998 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_e48ce43b4b50e794e6f6.png with policy now
+2023-09-28 12:08:12,019 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:12,019 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_b01db1f3135d9abf5dda.png with policy now
+2023-09-28 12:08:12,029 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:12,029 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_80ca593fba3667513734.png with policy now
+2023-09-28 12:08:12,042 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:12,042 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_0d3290b965563c469feb.png with policy now
+2023-09-28 12:08:12,059 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:12,059 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_1498bcca4db5696b8626.png with policy now
+2023-09-28 12:08:12,060 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:12,073 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_82e4d53b4250d50e79d4.png with policy now
+2023-09-28 12:08:12,073 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:12,074 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_16d6cb41504c5146f778.png with policy now
+2023-09-28 12:08:12,082 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:12,082 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_1c85d43d922d337b13fe.png with policy now
+2023-09-28 12:08:12,113 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:12,114 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_87641064f661808f9abd.png with policy now
+2023-09-28 12:08:12,130 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:12,130 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_5aea048d145615baf67b.png with policy now
+2023-09-28 12:08:12,143 INFO    wandb-upload_2:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/8z7r9ao2-media/images/examples_0_7f9147937f711e4ba16e.png
+2023-09-28 12:08:12,155 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:12,166 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_fb07148928a520cb77de.png with policy now
+2023-09-28 12:08:12,167 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:12,167 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_0846352818b6d6da3eff.png with policy now
+2023-09-28 12:08:12,168 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:12,168 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_ff9a10551f14ee999cc9.png with policy now
+2023-09-28 12:08:12,168 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:12,168 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_fa7ce0ad3a01bec9c89a.png with policy now
+2023-09-28 12:08:12,180 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:12,180 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_a3dc865630461bd6ba6d.png with policy now
+2023-09-28 12:08:12,180 DEBUG   SenderThread:9945 [sender.py:send():380] send: files
+2023-09-28 12:08:12,180 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file media/images/examples_0_68e74a918de1ea54e401.png with policy now
+2023-09-28 12:08:12,193 INFO    wandb-upload_1:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/phcya9y7-media/images/examples_0_adf48a208b1e9f1a3b47.png
+2023-09-28 12:08:12,205 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-28 12:08:12,206 DEBUG   SenderThread:9945 [sender.py:send():380] send: history
+2023-09-28 12:08:12,207 DEBUG   SenderThread:9945 [sender.py:send_request():407] send_request: summary_record
+2023-09-28 12:08:12,207 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-09-28 12:08:12,249 INFO    wandb-upload_3:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/ocirlfak-media/images/examples_0_b2def1b499b96beac370.png
+2023-09-28 12:08:12,254 DEBUG   SenderThread:9945 [sender.py:send():380] send: telemetry
+2023-09-28 12:08:12,257 DEBUG   SenderThread:9945 [sender.py:send():380] send: exit
+2023-09-28 12:08:12,257 INFO    SenderThread:9945 [sender.py:send_exit():585] handling exit code: 0
+2023-09-28 12:08:12,258 INFO    SenderThread:9945 [sender.py:send_exit():587] handling runtime: 0
+2023-09-28 12:08:12,258 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-09-28 12:08:12,258 INFO    SenderThread:9945 [sender.py:send_exit():593] send defer
+2023-09-28 12:08:12,258 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 12:08:12,258 INFO    HandlerThread:9945 [handler.py:handle_request_defer():170] handle defer: 0
+2023-09-28 12:08:12,262 DEBUG   SenderThread:9945 [sender.py:send_request():407] send_request: defer
+2023-09-28 12:08:12,262 INFO    SenderThread:9945 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-09-28 12:08:12,269 INFO    SenderThread:9945 [sender.py:transition_state():613] send defer: 1
+2023-09-28 12:08:12,276 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 12:08:12,283 INFO    HandlerThread:9945 [handler.py:handle_request_defer():170] handle defer: 1
+2023-09-28 12:08:12,282 INFO    wandb-upload_6:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/pifsjnkh-media/images/examples_0_cd8689e0f2a035303171.png
+2023-09-28 12:08:12,284 DEBUG   SenderThread:9945 [sender.py:send_request():407] send_request: defer
+2023-09-28 12:08:12,288 INFO    wandb-upload_4:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/15hob5av-media/images/examples_0_65989982ca9140b3494a.png
+2023-09-28 12:08:12,288 INFO    SenderThread:9945 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-09-28 12:08:12,292 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_adf9d6a5f4d4d22a12aa.png
+2023-09-28 12:08:12,295 INFO    SenderThread:9945 [sender.py:transition_state():613] send defer: 2
+2023-09-28 12:08:12,296 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_f9ae28233f32bf80214f.png
+2023-09-28 12:08:12,299 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_5aea048d145615baf67b.png
+2023-09-28 12:08:12,300 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_0846352818b6d6da3eff.png
+2023-09-28 12:08:12,300 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_80ca593fba3667513734.png
+2023-09-28 12:08:12,300 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_811d9a6e54bca1da4d2e.png
+2023-09-28 12:08:12,299 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 12:08:12,300 INFO    HandlerThread:9945 [handler.py:handle_request_defer():170] handle defer: 2
+2023-09-28 12:08:12,300 INFO    HandlerThread:9945 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-28 12:08:12,301 DEBUG   SystemMonitor:9945 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-28 12:08:12,301 DEBUG   SystemMonitor:9945 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-28 12:08:12,301 DEBUG   SystemMonitor:9945 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-28 12:08:12,302 INFO    HandlerThread:9945 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-28 12:08:12,302 INFO    HandlerThread:9945 [interfaces.py:finish():202] Joined disk monitor
+2023-09-28 12:08:12,302 INFO    HandlerThread:9945 [interfaces.py:finish():202] Joined memory monitor
+2023-09-28 12:08:12,302 INFO    HandlerThread:9945 [interfaces.py:finish():202] Joined network monitor
+2023-09-28 12:08:12,302 DEBUG   SenderThread:9945 [sender.py:send_request():407] send_request: defer
+2023-09-28 12:08:12,303 INFO    SenderThread:9945 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-09-28 12:08:12,303 INFO    SenderThread:9945 [sender.py:transition_state():613] send defer: 3
+2023-09-28 12:08:12,303 DEBUG   SenderThread:9945 [sender.py:send():380] send: stats
+2023-09-28 12:08:12,305 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 12:08:12,305 INFO    HandlerThread:9945 [handler.py:handle_request_defer():170] handle defer: 3
+2023-09-28 12:08:12,305 DEBUG   SenderThread:9945 [sender.py:send_request():407] send_request: defer
+2023-09-28 12:08:12,305 INFO    SenderThread:9945 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-09-28 12:08:12,307 INFO    SenderThread:9945 [sender.py:transition_state():613] send defer: 4
+2023-09-28 12:08:12,308 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 12:08:12,308 INFO    HandlerThread:9945 [handler.py:handle_request_defer():170] handle defer: 4
+2023-09-28 12:08:12,308 DEBUG   SenderThread:9945 [sender.py:send_request():407] send_request: defer
+2023-09-28 12:08:12,308 INFO    SenderThread:9945 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-09-28 12:08:12,308 INFO    SenderThread:9945 [sender.py:transition_state():613] send defer: 5
+2023-09-28 12:08:12,309 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 12:08:12,309 INFO    HandlerThread:9945 [handler.py:handle_request_defer():170] handle defer: 5
+2023-09-28 12:08:12,309 DEBUG   SenderThread:9945 [sender.py:send():380] send: summary
+2023-09-28 12:08:12,310 INFO    SenderThread:9945 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-09-28 12:08:12,311 DEBUG   SenderThread:9945 [sender.py:send_request():407] send_request: defer
+2023-09-28 12:08:12,311 INFO    SenderThread:9945 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-09-28 12:08:12,311 INFO    SenderThread:9945 [sender.py:transition_state():613] send defer: 6
+2023-09-28 12:08:12,314 INFO    wandb-upload_9:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/l2klszc1-media/images/examples_0_352ec8bcbb7f793c3857.png
+2023-09-28 12:08:12,314 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 12:08:12,320 INFO    HandlerThread:9945 [handler.py:handle_request_defer():170] handle defer: 6
+2023-09-28 12:08:12,320 DEBUG   SenderThread:9945 [sender.py:send_request():407] send_request: defer
+2023-09-28 12:08:12,320 INFO    SenderThread:9945 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-09-28 12:08:12,331 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: status_report
+2023-09-28 12:08:12,361 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_87641064f661808f9abd.png
+2023-09-28 12:08:12,367 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_1dbfdddc3e42d1785cf7.png
+2023-09-28 12:08:12,368 INFO    wandb-upload_8:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/yfqdtprm-media/images/examples_0_7b4106bc3ff373926955.png
+2023-09-28 12:08:12,368 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_1c85d43d922d337b13fe.png
+2023-09-28 12:08:12,399 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_cd8689e0f2a035303171.png
+2023-09-28 12:08:12,420 INFO    wandb-upload_7:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/4m317n5e-media/images/examples_0_4d144877c9093c197264.png
+2023-09-28 12:08:12,420 INFO    wandb-upload_5:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/kh8yllvx-media/images/examples_0_f0d95813663251b7fdfc.png
+2023-09-28 12:08:12,425 INFO    wandb-upload_18:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/9bmh9j76-media/images/examples_0_c5a7eaa6a52ac0e794bb.png
+2023-09-28 12:08:12,437 INFO    wandb-upload_11:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/rsgjw3u4-media/images/examples_0_adf9d6a5f4d4d22a12aa.png
+2023-09-28 12:08:12,443 INFO    wandb-upload_0:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/cae0542u-media/images/examples_0_b6a39637dfc1e6079a40.png
+2023-09-28 12:08:12,463 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_e72b844d9dfd6da87839.png
+2023-09-28 12:08:12,479 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_e48ce43b4b50e794e6f6.png
+2023-09-28 12:08:12,479 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_352ec8bcbb7f793c3857.png
+2023-09-28 12:08:12,480 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_adf48a208b1e9f1a3b47.png
+2023-09-28 12:08:12,481 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_7b4106bc3ff373926955.png
+2023-09-28 12:08:12,483 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_b6a39637dfc1e6079a40.png
+2023-09-28 12:08:12,483 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_c994f021ba36204ca3c1.png
+2023-09-28 12:08:12,474 INFO    wandb-upload_13:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/piuabxn6-media/images/examples_0_2a31766b19b7381d5670.png
+2023-09-28 12:08:12,475 INFO    wandb-upload_14:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/hcp8fypf-media/images/examples_0_c61f549f621b6f649f67.png
+2023-09-28 12:08:12,476 INFO    wandb-upload_16:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/w3bpffo5-media/images/examples_0_ba8afe5093296b9da95d.png
+2023-09-28 12:08:12,476 INFO    wandb-upload_12:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/tm9dguyo-media/images/examples_0_d96e00453fd5c26dea0a.png
+2023-09-28 12:08:12,477 INFO    wandb-upload_10:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/8nrgjr8l-media/images/examples_0_51c65586c47daf7edb5f.png
+2023-09-28 12:08:12,484 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_4e3042e3ba5ec4a9917f.png
+2023-09-28 12:08:12,478 INFO    wandb-upload_15:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/gs4zq7z9-media/images/examples_0_ad311e34b215d443b011.png
+2023-09-28 12:08:12,501 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_4d144877c9093c197264.png
+2023-09-28 12:08:12,501 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_a3dc865630461bd6ba6d.png
+2023-09-28 12:08:12,502 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_c6085070a7b25ac4c55e.png
+2023-09-28 12:08:12,504 INFO    wandb-upload_22:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/ghzuzny7-media/images/examples_0_811d9a6e54bca1da4d2e.png
+2023-09-28 12:08:12,506 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_68e74a918de1ea54e401.png
+2023-09-28 12:08:12,514 INFO    wandb-upload_20:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/ueawvwg2-media/images/examples_0_6e827361c1d87468c268.png
+2023-09-28 12:08:12,514 INFO    wandb-upload_17:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/f8325dgi-media/images/examples_0_e72b844d9dfd6da87839.png
+2023-09-28 12:08:12,517 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_2a4ed30223224f8e2c78.png
+2023-09-28 12:08:12,518 INFO    wandb-upload_19:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/n15u49b2-media/images/examples_0_c994f021ba36204ca3c1.png
+2023-09-28 12:08:12,519 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_2a31766b19b7381d5670.png
+2023-09-28 12:08:12,522 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_ae78f3590bb6ab576c71.png
+2023-09-28 12:08:12,523 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_82e4d53b4250d50e79d4.png
+2023-09-28 12:08:12,523 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/wandb-summary.json
+2023-09-28 12:08:12,523 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_b2def1b499b96beac370.png
+2023-09-28 12:08:12,532 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_65989982ca9140b3494a.png
+2023-09-28 12:08:12,534 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_38a78edc13346d3c129e.png
+2023-09-28 12:08:12,535 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_c5a7eaa6a52ac0e794bb.png
+2023-09-28 12:08:12,535 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_16d6cb41504c5146f778.png
+2023-09-28 12:08:12,535 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_ad311e34b215d443b011.png
+2023-09-28 12:08:12,538 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_0d3290b965563c469feb.png
+2023-09-28 12:08:12,538 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_1498bcca4db5696b8626.png
+2023-09-28 12:08:12,539 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_2dec0a94bb6e75710eba.png
+2023-09-28 12:08:12,539 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_1e8e2a9377834f0a8913.png
+2023-09-28 12:08:12,541 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_ff9a10551f14ee999cc9.png
+2023-09-28 12:08:12,551 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_b01db1f3135d9abf5dda.png
+2023-09-28 12:08:12,551 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_c61f549f621b6f649f67.png
+2023-09-28 12:08:12,551 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_fa7ce0ad3a01bec9c89a.png
+2023-09-28 12:08:12,552 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_fb07148928a520cb77de.png
+2023-09-28 12:08:12,553 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/requirements.txt
+2023-09-28 12:08:12,553 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_f0d95813663251b7fdfc.png
+2023-09-28 12:08:12,553 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_51c65586c47daf7edb5f.png
+2023-09-28 12:08:12,553 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_d96e00453fd5c26dea0a.png
+2023-09-28 12:08:12,554 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/wandb-metadata.json
+2023-09-28 12:08:12,554 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_a71bcd3a642fb0b0a111.png
+2023-09-28 12:08:12,566 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_25764ebef84544263a07.png
+2023-09-28 12:08:12,566 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_6e827361c1d87468c268.png
+2023-09-28 12:08:12,567 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_0db66911a17398e927ab.png
+2023-09-28 12:08:12,567 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_7f9147937f711e4ba16e.png
+2023-09-28 12:08:12,567 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_ba8afe5093296b9da95d.png
+2023-09-28 12:08:12,567 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media
+2023-09-28 12:08:12,567 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_created():271] file/dir created: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images
+2023-09-28 12:08:12,575 INFO    wandb-upload_21:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/vuuwj2ih-media/images/examples_0_38a78edc13346d3c129e.png
+2023-09-28 12:08:12,593 INFO    wandb-upload_23:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/yjev7f1o-media/images/examples_0_1e8e2a9377834f0a8913.png
+2023-09-28 12:08:12,601 INFO    wandb-upload_27:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/cdn2gvxr-media/images/examples_0_ae78f3590bb6ab576c71.png
+2023-09-28 12:08:12,617 INFO    wandb-upload_28:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/mhhvr2k0-media/images/examples_0_1dbfdddc3e42d1785cf7.png
+2023-09-28 12:08:12,682 INFO    wandb-upload_2:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/7cdv7rcb-media/images/examples_0_f9ae28233f32bf80214f.png
+2023-09-28 12:08:12,712 INFO    wandb-upload_1:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/lidrj6a6-media/images/examples_0_25764ebef84544263a07.png
+2023-09-28 12:08:12,719 INFO    wandb-upload_30:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/cto799b8-media/images/examples_0_2a4ed30223224f8e2c78.png
+2023-09-28 12:08:12,726 INFO    wandb-upload_37:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/6dgrkf56-media/images/examples_0_5aea048d145615baf67b.png
+2023-09-28 12:08:12,728 INFO    wandb-upload_6:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/2l1kc4gv-media/images/examples_0_80ca593fba3667513734.png
+2023-09-28 12:08:12,730 INFO    wandb-upload_25:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/cc1nw639-media/images/examples_0_2dec0a94bb6e75710eba.png
+2023-09-28 12:08:12,732 INFO    wandb-upload_3:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/q6fyzu19-media/images/examples_0_4e3042e3ba5ec4a9917f.png
+2023-09-28 12:08:12,734 INFO    wandb-upload_31:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/8goc7ded-media/images/examples_0_e48ce43b4b50e794e6f6.png
+2023-09-28 12:08:12,737 INFO    wandb-upload_33:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/v3wav576-media/images/examples_0_1498bcca4db5696b8626.png
+2023-09-28 12:08:12,737 INFO    wandb-upload_26:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/1j1in3w1-media/images/examples_0_0db66911a17398e927ab.png
+2023-09-28 12:08:12,746 INFO    wandb-upload_24:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/i3wuj0q0-media/images/examples_0_a71bcd3a642fb0b0a111.png
+2023-09-28 12:08:12,753 INFO    wandb-upload_36:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/3qbr4r48-media/images/examples_0_87641064f661808f9abd.png
+2023-09-28 12:08:12,757 INFO    wandb-upload_9:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/mmex32iz-media/images/examples_0_1c85d43d922d337b13fe.png
+2023-09-28 12:08:12,761 INFO    wandb-upload_4:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/biwpgz5q-media/images/examples_0_0d3290b965563c469feb.png
+2023-09-28 12:08:12,767 INFO    wandb-upload_8:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/f5af55f6-media/images/examples_0_0846352818b6d6da3eff.png
+2023-09-28 12:08:12,778 INFO    wandb-upload_32:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/65qede9r-media/images/examples_0_b01db1f3135d9abf5dda.png
+2023-09-28 12:08:12,782 INFO    wandb-upload_29:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/9yxphkbs-media/images/examples_0_c6085070a7b25ac4c55e.png
+2023-09-28 12:08:12,783 INFO    SenderThread:9945 [sender.py:transition_state():613] send defer: 7
+2023-09-28 12:08:12,791 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 12:08:12,791 INFO    HandlerThread:9945 [handler.py:handle_request_defer():170] handle defer: 7
+2023-09-28 12:08:12,791 DEBUG   SenderThread:9945 [sender.py:send_request():407] send_request: defer
+2023-09-28 12:08:12,793 INFO    SenderThread:9945 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-09-28 12:08:12,797 INFO    wandb-upload_7:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/kpkgninx-media/images/examples_0_fa7ce0ad3a01bec9c89a.png
+2023-09-28 12:08:12,797 INFO    SenderThread:9945 [sender.py:transition_state():613] send defer: 8
+2023-09-28 12:08:12,800 INFO    wandb-upload_38:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/lc67aick-media/images/examples_0_fb07148928a520cb77de.png
+2023-09-28 12:08:12,804 INFO    wandb-upload_34:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/baac25yb-media/images/examples_0_82e4d53b4250d50e79d4.png
+2023-09-28 12:08:12,805 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 12:08:12,806 INFO    HandlerThread:9945 [handler.py:handle_request_defer():170] handle defer: 8
+2023-09-28 12:08:12,807 DEBUG   SenderThread:9945 [sender.py:send_request():407] send_request: defer
+2023-09-28 12:08:12,808 INFO    SenderThread:9945 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-09-28 12:08:12,808 INFO    SenderThread:9945 [job_builder.py:build():281] Attempting to build job artifact
+2023-09-28 12:08:12,809 INFO    SenderThread:9945 [job_builder.py:_get_source_type():393] is repo sourced job
+2023-09-28 12:08:12,810 INFO    SenderThread:9945 [job_builder.py:build():369] adding wandb-job metadata file
+2023-09-28 12:08:12,824 INFO    wandb-upload_35:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/ltvbmdo1-media/images/examples_0_16d6cb41504c5146f778.png
+2023-09-28 12:08:12,840 INFO    wandb-upload_39:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/tg3uc6dl-media/images/examples_0_ff9a10551f14ee999cc9.png
+2023-09-28 12:08:12,854 INFO    wandb-upload_18:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/82krzwxm-media/images/examples_0_a3dc865630461bd6ba6d.png
+2023-09-28 12:08:12,866 INFO    wandb-upload_11:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/gyunx545-media/images/examples_0_68e74a918de1ea54e401.png
+2023-09-28 12:08:12,921 INFO    SenderThread:9945 [sender.py:transition_state():613] send defer: 9
+2023-09-28 12:08:12,921 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 12:08:12,921 DEBUG   SenderThread:9945 [sender.py:send():380] send: artifact
+2023-09-28 12:08:12,921 INFO    HandlerThread:9945 [handler.py:handle_request_defer():170] handle defer: 9
+2023-09-28 12:08:12,931 INFO    wandb-upload_0:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/o9elrt7q-media/images/examples_0_cd8689e0f2a035303171.png
+2023-09-28 12:08:12,940 INFO    wandb-upload_5:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/fuu3lf3x-media/images/examples_0_adf9d6a5f4d4d22a12aa.png
+2023-09-28 12:08:12,988 INFO    wandb-upload_12:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/phq2zkvy-media/images/examples_0_b6a39637dfc1e6079a40.png
+2023-09-28 12:08:13,017 INFO    wandb-upload_22:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/vfzkbtok-media/images/examples_0_c994f021ba36204ca3c1.png
+2023-09-28 12:08:13,023 INFO    wandb-upload_20:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/2cd9rs0x-media/images/examples_0_2a31766b19b7381d5670.png
+2023-09-28 12:08:13,024 INFO    wandb-upload_14:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/50mfy8he-media/images/examples_0_adf48a208b1e9f1a3b47.png
+2023-09-28 12:08:13,043 INFO    wandb-upload_19:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/urkiynln-media/images/examples_0_65989982ca9140b3494a.png
+2023-09-28 12:08:13,049 INFO    wandb-upload_16:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/az7a0y5i-media/images/examples_0_7b4106bc3ff373926955.png
+2023-09-28 12:08:13,052 INFO    wandb-upload_40:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/k0kywuym-media/images/examples_0_b2def1b499b96beac370.png
+2023-09-28 12:08:13,056 INFO    wandb-upload_15:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/hwdtm2ek-media/images/examples_0_e72b844d9dfd6da87839.png
+2023-09-28 12:08:13,065 INFO    wandb-upload_41:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/5mmvzk48-media/images/examples_0_ad311e34b215d443b011.png
+2023-09-28 12:08:13,067 INFO    wandb-upload_44:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/y0wl51xk-media/images/examples_0_51c65586c47daf7edb5f.png
+2023-09-28 12:08:13,070 INFO    wandb-upload_43:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/d80ulxgy-media/images/examples_0_f0d95813663251b7fdfc.png
+2023-09-28 12:08:13,077 INFO    wandb-upload_13:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/rcc3xa9m-media/images/examples_0_352ec8bcbb7f793c3857.png
+2023-09-28 12:08:13,079 INFO    wandb-upload_17:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/vxzg00zj-media/images/examples_0_4d144877c9093c197264.png
+2023-09-28 12:08:13,099 INFO    wandb-upload_46:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/h33zzfnn-media/images/examples_0_6e827361c1d87468c268.png
+2023-09-28 12:08:13,099 INFO    wandb-upload_42:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/wmq005al-media/images/examples_0_c61f549f621b6f649f67.png
+2023-09-28 12:08:13,099 INFO    wandb-upload_45:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/0tulmazl-media/images/examples_0_d96e00453fd5c26dea0a.png
+2023-09-28 12:08:13,105 INFO    wandb-upload_23:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/g76a9nq9-media/images/examples_0_7f9147937f711e4ba16e.png
+2023-09-28 12:08:13,109 INFO    wandb-upload_27:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/14571ci4-media/images/examples_0_ba8afe5093296b9da95d.png
+2023-09-28 12:08:13,110 INFO    wandb-upload_10:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/rr9aalr1-media/images/examples_0_c5a7eaa6a52ac0e794bb.png
+2023-09-28 12:08:13,113 INFO    wandb-upload_21:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/icayygzm-media/images/examples_0_811d9a6e54bca1da4d2e.png
+2023-09-28 12:08:13,152 INFO    wandb-upload_47:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/uxfc67xw-media/images/examples_0_f9ae28233f32bf80214f.png
+2023-09-28 12:08:13,174 INFO    wandb-upload_8:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/lv8yj576-media/images/examples_0_ae78f3590bb6ab576c71.png
+2023-09-28 12:08:13,202 INFO    wandb-upload_9:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/lws6iuab-media/images/examples_0_2a4ed30223224f8e2c78.png
+2023-09-28 12:08:13,203 INFO    wandb-upload_28:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/ozmq5kh2-media/images/examples_0_1498bcca4db5696b8626.png
+2023-09-28 12:08:13,207 INFO    wandb-upload_3:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/gbwz2wfp-media/images/examples_0_2dec0a94bb6e75710eba.png
+2023-09-28 12:08:13,211 INFO    wandb-upload_25:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/jo9l2knt-media/images/examples_0_4e3042e3ba5ec4a9917f.png
+2023-09-28 12:08:13,212 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-28 12:08:13,223 INFO    wandb-upload_30:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/js7wcs1l-media/images/examples_0_0d3290b965563c469feb.png
+2023-09-28 12:08:13,229 INFO    wandb-upload_26:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/8nloybex-media/images/examples_0_b01db1f3135d9abf5dda.png
+2023-09-28 12:08:13,239 INFO    wandb-upload_1:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/midvjhmz-media/images/examples_0_38a78edc13346d3c129e.png
+2023-09-28 12:08:13,252 INFO    wandb-upload_4:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/a9rnrj8a-media/images/examples_0_fa7ce0ad3a01bec9c89a.png
+2023-09-28 12:08:13,253 INFO    wandb-upload_6:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/utl85asf-media/images/examples_0_1e8e2a9377834f0a8913.png
+2023-09-28 12:08:13,257 INFO    wandb-upload_36:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/jxae1jo1-media/images/examples_0_fb07148928a520cb77de.png
+2023-09-28 12:08:13,286 INFO    wandb-upload_32:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/t6sxsi7p-media/images/examples_0_a71bcd3a642fb0b0a111.png
+2023-09-28 12:08:13,291 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/config.yaml
+2023-09-28 12:08:13,291 INFO    Thread-12 :9945 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/wandb-summary.json
+2023-09-28 12:08:13,297 INFO    wandb-upload_31:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/bvtw0elf-media/images/examples_0_25764ebef84544263a07.png
+2023-09-28 12:08:13,360 INFO    wandb-upload_34:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/0gg52xna-media/images/examples_0_0db66911a17398e927ab.png
+2023-09-28 12:08:13,392 INFO    wandb-upload_35:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/ia1m9iud-media/images/examples_0_1dbfdddc3e42d1785cf7.png
+2023-09-28 12:08:13,398 INFO    wandb-upload_2:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/qjpaoj09-media/images/examples_0_87641064f661808f9abd.png
+2023-09-28 12:08:13,437 INFO    wandb-upload_29:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/poeswmh7-media/images/examples_0_0846352818b6d6da3eff.png
+2023-09-28 12:08:13,438 INFO    wandb-upload_39:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/7vgwgyie-media/images/examples_0_1c85d43d922d337b13fe.png
+2023-09-28 12:08:13,457 INFO    wandb-upload_18:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/enj1l92w-media/images/examples_0_5aea048d145615baf67b.png
+2023-09-28 12:08:13,459 INFO    wandb-upload_7:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/pkgfpfj4-media/images/examples_0_80ca593fba3667513734.png
+2023-09-28 12:08:13,473 INFO    wandb-upload_33:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/zhdgeb45-media/images/examples_0_a3dc865630461bd6ba6d.png
+2023-09-28 12:08:13,475 INFO    wandb-upload_24:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/t9he86z1-media/images/examples_0_c6085070a7b25ac4c55e.png
+2023-09-28 12:08:13,476 INFO    wandb-upload_38:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/yr9wtcts-media/images/examples_0_e48ce43b4b50e794e6f6.png
+2023-09-28 12:08:13,484 INFO    wandb-upload_20:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/4f2g885v-media/images/examples_0_82e4d53b4250d50e79d4.png
+2023-09-28 12:08:13,485 INFO    wandb-upload_37:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/i3xbbt8q-media/images/examples_0_68e74a918de1ea54e401.png
+2023-09-28 12:08:13,494 INFO    wandb-upload_19:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/aosvs39r-media/images/examples_0_16d6cb41504c5146f778.png
+2023-09-28 12:08:13,505 INFO    wandb-upload_16:9945 [upload_job.py:push():131] Uploaded file /tmp/tmp4stcyc2twandb/8cw90qwm-media/images/examples_0_ff9a10551f14ee999cc9.png
+2023-09-28 12:08:14,176 INFO    wandb-upload_12:9945 [upload_job.py:push():89] Uploaded file /home/codespace/.local/share/wandb/artifacts/staging/tmpnfxmdugt
+2023-09-28 12:08:14,190 INFO    wandb-upload_40:9945 [upload_job.py:push():89] Uploaded file /home/codespace/.local/share/wandb/artifacts/staging/tmpjhkz4qix
+2023-09-28 12:08:15,151 INFO    SenderThread:9945 [sender.py:send_artifact():1456] sent artifact job-https___github.com_jdrrl_courses_CS7015_A1_a1.py - {'id': 'QXJ0aWZhY3Q6NTg3MzgzNzgw', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwMjEwMDU1Ng==', 'latestArtifact': None}}
+2023-09-28 12:08:15,151 DEBUG   SenderThread:9945 [sender.py:send_request():407] send_request: defer
+2023-09-28 12:08:15,151 INFO    SenderThread:9945 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-09-28 12:08:15,151 INFO    SenderThread:9945 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-09-28 12:08:15,293 INFO    SenderThread:9945 [dir_watcher.py:finish():388] scan: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files
+2023-09-28 12:08:15,293 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/wandb-metadata.json wandb-metadata.json
+2023-09-28 12:08:15,293 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/wandb-summary.json wandb-summary.json
+2023-09-28 12:08:15,293 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/requirements.txt requirements.txt
+2023-09-28 12:08:15,294 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/config.yaml config.yaml
+2023-09-28 12:08:15,300 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_b6a39637dfc1e6079a40.png media/images/examples_0_b6a39637dfc1e6079a40.png
+2023-09-28 12:08:15,300 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_5aea048d145615baf67b.png media/images/examples_0_5aea048d145615baf67b.png
+2023-09-28 12:08:15,300 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_ff9a10551f14ee999cc9.png media/images/examples_0_ff9a10551f14ee999cc9.png
+2023-09-28 12:08:15,300 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_6e827361c1d87468c268.png media/images/examples_0_6e827361c1d87468c268.png
+2023-09-28 12:08:15,300 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_2a31766b19b7381d5670.png media/images/examples_0_2a31766b19b7381d5670.png
+2023-09-28 12:08:15,300 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_c994f021ba36204ca3c1.png media/images/examples_0_c994f021ba36204ca3c1.png
+2023-09-28 12:08:15,300 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_b01db1f3135d9abf5dda.png media/images/examples_0_b01db1f3135d9abf5dda.png
+2023-09-28 12:08:15,300 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_adf9d6a5f4d4d22a12aa.png media/images/examples_0_adf9d6a5f4d4d22a12aa.png
+2023-09-28 12:08:15,300 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_4e3042e3ba5ec4a9917f.png media/images/examples_0_4e3042e3ba5ec4a9917f.png
+2023-09-28 12:08:15,300 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_4d144877c9093c197264.png media/images/examples_0_4d144877c9093c197264.png
+2023-09-28 12:08:15,301 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_c5a7eaa6a52ac0e794bb.png media/images/examples_0_c5a7eaa6a52ac0e794bb.png
+2023-09-28 12:08:15,301 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_d96e00453fd5c26dea0a.png media/images/examples_0_d96e00453fd5c26dea0a.png
+2023-09-28 12:08:15,301 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_ba8afe5093296b9da95d.png media/images/examples_0_ba8afe5093296b9da95d.png
+2023-09-28 12:08:15,301 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_7b4106bc3ff373926955.png media/images/examples_0_7b4106bc3ff373926955.png
+2023-09-28 12:08:15,301 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_ad311e34b215d443b011.png media/images/examples_0_ad311e34b215d443b011.png
+2023-09-28 12:08:15,301 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_16d6cb41504c5146f778.png media/images/examples_0_16d6cb41504c5146f778.png
+2023-09-28 12:08:15,301 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_0d3290b965563c469feb.png media/images/examples_0_0d3290b965563c469feb.png
+2023-09-28 12:08:15,301 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_b2def1b499b96beac370.png media/images/examples_0_b2def1b499b96beac370.png
+2023-09-28 12:08:15,301 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_65989982ca9140b3494a.png media/images/examples_0_65989982ca9140b3494a.png
+2023-09-28 12:08:15,301 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_38a78edc13346d3c129e.png media/images/examples_0_38a78edc13346d3c129e.png
+2023-09-28 12:08:15,301 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_51c65586c47daf7edb5f.png media/images/examples_0_51c65586c47daf7edb5f.png
+2023-09-28 12:08:15,302 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_1e8e2a9377834f0a8913.png media/images/examples_0_1e8e2a9377834f0a8913.png
+2023-09-28 12:08:15,302 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_c61f549f621b6f649f67.png media/images/examples_0_c61f549f621b6f649f67.png
+2023-09-28 12:08:15,302 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_68e74a918de1ea54e401.png media/images/examples_0_68e74a918de1ea54e401.png
+2023-09-28 12:08:15,302 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_1498bcca4db5696b8626.png media/images/examples_0_1498bcca4db5696b8626.png
+2023-09-28 12:08:15,302 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_7f9147937f711e4ba16e.png media/images/examples_0_7f9147937f711e4ba16e.png
+2023-09-28 12:08:15,302 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_80ca593fba3667513734.png media/images/examples_0_80ca593fba3667513734.png
+2023-09-28 12:08:15,302 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_0db66911a17398e927ab.png media/images/examples_0_0db66911a17398e927ab.png
+2023-09-28 12:08:15,302 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_25764ebef84544263a07.png media/images/examples_0_25764ebef84544263a07.png
+2023-09-28 12:08:15,302 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_fa7ce0ad3a01bec9c89a.png media/images/examples_0_fa7ce0ad3a01bec9c89a.png
+2023-09-28 12:08:15,302 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_0846352818b6d6da3eff.png media/images/examples_0_0846352818b6d6da3eff.png
+2023-09-28 12:08:15,302 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_ae78f3590bb6ab576c71.png media/images/examples_0_ae78f3590bb6ab576c71.png
+2023-09-28 12:08:15,303 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_c6085070a7b25ac4c55e.png media/images/examples_0_c6085070a7b25ac4c55e.png
+2023-09-28 12:08:15,303 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_1c85d43d922d337b13fe.png media/images/examples_0_1c85d43d922d337b13fe.png
+2023-09-28 12:08:15,303 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_fb07148928a520cb77de.png media/images/examples_0_fb07148928a520cb77de.png
+2023-09-28 12:08:15,303 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_e48ce43b4b50e794e6f6.png media/images/examples_0_e48ce43b4b50e794e6f6.png
+2023-09-28 12:08:15,303 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_1dbfdddc3e42d1785cf7.png media/images/examples_0_1dbfdddc3e42d1785cf7.png
+2023-09-28 12:08:15,303 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_cd8689e0f2a035303171.png media/images/examples_0_cd8689e0f2a035303171.png
+2023-09-28 12:08:15,303 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_f0d95813663251b7fdfc.png media/images/examples_0_f0d95813663251b7fdfc.png
+2023-09-28 12:08:15,303 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_a71bcd3a642fb0b0a111.png media/images/examples_0_a71bcd3a642fb0b0a111.png
+2023-09-28 12:08:15,303 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_2dec0a94bb6e75710eba.png media/images/examples_0_2dec0a94bb6e75710eba.png
+2023-09-28 12:08:15,303 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_352ec8bcbb7f793c3857.png media/images/examples_0_352ec8bcbb7f793c3857.png
+2023-09-28 12:08:15,303 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_adf48a208b1e9f1a3b47.png media/images/examples_0_adf48a208b1e9f1a3b47.png
+2023-09-28 12:08:15,304 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_a3dc865630461bd6ba6d.png media/images/examples_0_a3dc865630461bd6ba6d.png
+2023-09-28 12:08:15,304 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_87641064f661808f9abd.png media/images/examples_0_87641064f661808f9abd.png
+2023-09-28 12:08:15,304 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_f9ae28233f32bf80214f.png media/images/examples_0_f9ae28233f32bf80214f.png
+2023-09-28 12:08:15,304 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_e72b844d9dfd6da87839.png media/images/examples_0_e72b844d9dfd6da87839.png
+2023-09-28 12:08:15,304 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_2a4ed30223224f8e2c78.png media/images/examples_0_2a4ed30223224f8e2c78.png
+2023-09-28 12:08:15,304 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_811d9a6e54bca1da4d2e.png media/images/examples_0_811d9a6e54bca1da4d2e.png
+2023-09-28 12:08:15,304 INFO    SenderThread:9945 [dir_watcher.py:finish():402] scan save: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/media/images/examples_0_82e4d53b4250d50e79d4.png media/images/examples_0_82e4d53b4250d50e79d4.png
+2023-09-28 12:08:15,304 INFO    SenderThread:9945 [sender.py:transition_state():613] send defer: 10
+2023-09-28 12:08:15,304 DEBUG   SenderThread:9945 [sender.py:send_request():407] send_request: poll_exit
+2023-09-28 12:08:15,304 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 12:08:15,305 INFO    HandlerThread:9945 [handler.py:handle_request_defer():170] handle defer: 10
+2023-09-28 12:08:15,305 DEBUG   SenderThread:9945 [sender.py:send_request():407] send_request: defer
+2023-09-28 12:08:15,305 INFO    SenderThread:9945 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-09-28 12:08:15,305 INFO    SenderThread:9945 [file_pusher.py:finish():175] shutting down file pusher
+2023-09-28 12:08:15,626 INFO    wandb-upload_22:9945 [upload_job.py:push():131] Uploaded file /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/wandb-summary.json
+2023-09-28 12:08:15,632 INFO    wandb-upload_14:9945 [upload_job.py:push():131] Uploaded file /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/requirements.txt
+2023-09-28 12:08:15,666 INFO    wandb-upload_44:9945 [upload_job.py:push():131] Uploaded file /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/files/config.yaml
+2023-09-28 12:08:15,866 INFO    Thread-11 (_thread_body):9945 [sender.py:transition_state():613] send defer: 11
+2023-09-28 12:08:15,867 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 12:08:15,867 INFO    HandlerThread:9945 [handler.py:handle_request_defer():170] handle defer: 11
+2023-09-28 12:08:15,867 DEBUG   SenderThread:9945 [sender.py:send_request():407] send_request: defer
+2023-09-28 12:08:15,868 INFO    SenderThread:9945 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-09-28 12:08:15,868 INFO    SenderThread:9945 [file_pusher.py:join():181] waiting for file pusher
+2023-09-28 12:08:15,868 INFO    SenderThread:9945 [sender.py:transition_state():613] send defer: 12
+2023-09-28 12:08:15,868 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 12:08:15,868 INFO    HandlerThread:9945 [handler.py:handle_request_defer():170] handle defer: 12
+2023-09-28 12:08:15,869 DEBUG   SenderThread:9945 [sender.py:send_request():407] send_request: defer
+2023-09-28 12:08:15,869 INFO    SenderThread:9945 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-09-28 12:08:15,869 INFO    SenderThread:9945 [file_stream.py:finish():595] file stream finish called
+2023-09-28 12:08:16,012 INFO    SenderThread:9945 [file_stream.py:finish():599] file stream finish is done
+2023-09-28 12:08:16,013 INFO    SenderThread:9945 [sender.py:transition_state():613] send defer: 13
+2023-09-28 12:08:16,013 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 12:08:16,013 INFO    HandlerThread:9945 [handler.py:handle_request_defer():170] handle defer: 13
+2023-09-28 12:08:16,013 DEBUG   SenderThread:9945 [sender.py:send_request():407] send_request: defer
+2023-09-28 12:08:16,013 INFO    SenderThread:9945 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-09-28 12:08:16,013 INFO    SenderThread:9945 [sender.py:transition_state():613] send defer: 14
+2023-09-28 12:08:16,013 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 12:08:16,014 INFO    HandlerThread:9945 [handler.py:handle_request_defer():170] handle defer: 14
+2023-09-28 12:08:16,014 DEBUG   SenderThread:9945 [sender.py:send():380] send: final
+2023-09-28 12:08:16,014 DEBUG   SenderThread:9945 [sender.py:send():380] send: footer
+2023-09-28 12:08:16,014 DEBUG   SenderThread:9945 [sender.py:send_request():407] send_request: defer
+2023-09-28 12:08:16,014 INFO    SenderThread:9945 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-09-28 12:08:16,015 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-28 12:08:16,016 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-28 12:08:16,016 DEBUG   SenderThread:9945 [sender.py:send_request():407] send_request: poll_exit
+2023-09-28 12:08:16,016 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: server_info
+2023-09-28 12:08:16,016 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: get_summary
+2023-09-28 12:08:16,017 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: sampled_history
+2023-09-28 12:08:16,017 DEBUG   SenderThread:9945 [sender.py:send_request():407] send_request: server_info
+2023-09-28 12:08:16,017 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: job_info
+2023-09-28 12:08:16,136 DEBUG   SenderThread:9945 [sender.py:send_request():407] send_request: job_info
+2023-09-28 12:08:16,137 DEBUG   HandlerThread:9945 [handler.py:handle_request():144] handle_request: shutdown
+2023-09-28 12:08:16,137 INFO    HandlerThread:9945 [handler.py:finish():844] shutting down handler
+2023-09-28 12:08:17,019 INFO    WriterThread:9945 [datastore.py:close():294] close: /workspaces/courses/CS7015/A1/wandb/run-20230928_120810-is3gfbkr/run-is3gfbkr.wandb
+2023-09-28 12:08:17,136 INFO    SenderThread:9945 [sender.py:finish():1534] shutting down sender
+2023-09-28 12:08:17,136 INFO    SenderThread:9945 [file_pusher.py:finish():175] shutting down file pusher
+2023-09-28 12:08:17,136 INFO    SenderThread:9945 [file_pusher.py:join():181] waiting for file pusher
