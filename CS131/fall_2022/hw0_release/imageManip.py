@@ -106,7 +106,8 @@ def resize_image(input_image, output_rows, output_cols):
     #    > This should require two nested for loops!
 
     ### YOUR CODE HERE
-    pass
+    # for i in output_rows:
+        # for j in output_cols:
     ### END YOUR CODE
 
     # 3. Return the output image
@@ -129,7 +130,15 @@ def rotate2d(point, theta):
     # Reminder: np.cos() and np.sin() will be useful here!
 
     ## YOUR CODE HERE
-    pass
+    point = point
+    theta = theta 
+
+    M = np.array([[np.cos(theta), -np.sin(theta)],
+                 [np.sin(theta), np.cos(theta)]])
+    M = np.round(M, 2)
+
+    out = (point*M)[:,0]
+    return out
     ### END YOUR CODE
 
 
