@@ -1,0 +1,1 @@
+# Week 7: Agent foundations, AI governance, and careers in alignment 
