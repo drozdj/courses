@@ -1,5 +1,5 @@
 # matauni ai safety reading list
-<!-- https://docs.google.com/document/d/18EHLuk8EssAEbqz-sHAiWJzO_b8HwvpHWkyF7250TN0/ -->
+https://docs.google.com/document/d/18EHLuk8EssAEbqz-sHAiWJzO_b8HwvpHWkyF7250TN0/
 
 2024.02.15: Evan Hubinger et al., 2024, “Sleeper agents: Training deceptive LLMs that persist through safety training”. arXiv.
 2024.02.08: John Wentworth, 2021, three posts on selection theorems:
