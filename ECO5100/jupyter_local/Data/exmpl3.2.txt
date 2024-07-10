@@ -1,0 +1,49 @@
+# exmpl3.2
+# A data set from Oehlert (2000) \emph{A First Course in Design and
+# Analysis of Experiments}, New York: W. H. Freeman.
+#
+# Data originally from Kvam, P. H. and Samaniego, F. J. (1993). ``Life
+# Testing in Variably Scaled Environments.'' {\em Technometrics} 35, 306--314.
+#
+# These are the log10 times to failure (in hours) of a resin under five
+# different temperature stresses.  Column 1 is temperature (levels 1
+# through 5 are 175, 194, 213, 231, 250) degrees C, and Column 2 is response. 
+             temp               y
+                1             2.04
+                1             1.91
+                1             2.00
+                1             1.92
+                1             1.85
+                1             1.96
+                1             1.88
+                1             1.90
+                2             1.66
+                2             1.71
+                2             1.42
+                2             1.76
+                2             1.66
+                2             1.61
+                2             1.55
+                2             1.66
+                3             1.53
+                3             1.54
+                3             1.38
+                3             1.31
+                3             1.35
+                3             1.27
+                3             1.26
+                3             1.38
+                4             1.15
+                4             1.22
+                4             1.17
+                4             1.16
+                4             1.21
+                4             1.28
+                4             1.17
+                5             1.26
+                5             0.83
+                5             1.08
+                5             1.02
+                5             1.09
+                5             1.06
+
