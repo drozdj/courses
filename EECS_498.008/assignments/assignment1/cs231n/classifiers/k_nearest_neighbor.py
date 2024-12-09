@@ -164,9 +164,24 @@ class KNearestNeighbor(object):
             # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
             
             sorted = np.argsort(dists[i:i+1, :])
-            sorted = sorted[:, :2].flatten()            
-            y_pred[i] = self.y_train[sorted[0]]
+            # print(f"np.argsort(dists[{i}:{i+1}, :])")
 
+            sorted = sorted[:, :k].flatten()
+            # print(f"sorted[:, :{k}].flatten()")
+
+            sorted = self.y_train[sorted]
+            # print(f"self.y_train[{sorted}]")
+
+            # print("\n")
+            
+            values, counts = np.unique(sorted, return_counts=True)
+            most_common = values[counts.argmax()]
+
+            y_pred[i] = most_common
+
+            
+            
+            
             pass
 
             # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
