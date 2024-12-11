@@ -59,8 +59,16 @@ def compute_distances_two_loops(x_train: torch.Tensor, x_test: torch.Tensor):
     # You may not use torch.norm (or its instance method variant), nor any   #
     # functions from torch.nn or torch.nn.functional.                        #
     ##########################################################################
-    # Replace "pass" statement with your code
-    pass
+
+    dists = x_test.new_zeros(num_test, num_train) # more natural 
+
+    x_train_copy = x_train.reshape(num_train, -1)
+    x_test_copy = x_test.reshape(num_test, -1)    
+
+    for p in range(num_test):
+        for q in range(num_train):            
+            dists[p, q] = ((x_test_copy[p, :] - x_train_copy[q, :]).pow(2)).sum()  
+
     ##########################################################################
     #                           END OF YOUR CODE                             #
     ##########################################################################
