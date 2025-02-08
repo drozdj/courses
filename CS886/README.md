@@ -12,4 +12,4 @@
 - **Critical Thinking:** The assignment should demonstrate critical thinking and a deep understanding of the underlying concepts.
 - **Originality:** The work should be original and not plagiarized.
 - **Adherence to Deadlines:** Assignments should be submitted on time.
-- **Word Count:** Adherence, must not under any case go other.
+- **Word Count:** Must not under any case go over.
