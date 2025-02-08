@@ -9,4 +9,4 @@
     - **Implementation:** Correct implementation of the chosen efficient inference techniques.  Measurable improvements in inference speed or model size.
     - **Report:** Clear explanation of the implemented techniques.  Quantitative analysis of the impact on performance, speed, and size.  Thoughtful discussion of the trade-offs.
 
-
+<!-- - **Deadline: _** -->
