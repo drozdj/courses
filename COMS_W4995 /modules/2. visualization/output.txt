@@ -1,0 +1,12 @@
+0       True
+1       True
+2       True
+3      False
+4       True
+       ...  
+339     True
+340     True
+341     True
+342     True
+343     True
+Name: flipper_length_mm, Length: 344, dtype: bool
