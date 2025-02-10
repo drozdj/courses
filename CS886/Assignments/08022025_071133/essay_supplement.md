@@ -1,7 +1,7 @@
 
 ## A Comprehensive Survey on Pre-trained Foundational Models
 ### Challenges and Open Problems (in PFM research)
-- ⬜️how do *Qiu et al.* [5](https://arxiv.org/abs/2003.08271)recognize that DNNs can be attacked by adversarial samples, which potentially leads the model to produce false predictions.
+- ⬜️how do *Qiu et al.* [5](https://arxiv.org/abs/2003.08271) recognize that DNNs can be attacked by adversarial samples, which potentially leads the model to produce false predictions.
 
 - ⬜️how does a tiny interference of the original input potentially mislead the pretraining model to produce specific false predictions?
 
