@@ -1,4 +1,4 @@
-**Analyzing and Implementing Efficient LLM Inference Techniques**
+# Analyzing and Implementing Efficient LLM Inference Techniques
 
 ---
 - **Type:** Implementation and Report
