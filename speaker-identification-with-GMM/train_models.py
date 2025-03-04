@@ -8,18 +8,13 @@ from speakerfeatures import extract_features
 import warnings
 warnings.filterwarnings("ignore")
 
-
 #path to training data
-source   = "development_set\\"   
+source   = "development_set/"   
 
 #path where training speakers will be saved
-dest = "speaker_models\\"
-
+dest = "speaker_models/"
 train_file = "development_set_enroll.txt"        
-
-
 file_paths = open(train_file,'r')
-
 count = 1
 
 # Extracting features for each speaker (5 files per speakers)

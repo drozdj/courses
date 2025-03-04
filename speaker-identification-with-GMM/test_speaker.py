@@ -1,4 +1,5 @@
-#test_gender.py
+#test_speaker.py
+
 import os
 import cPickle
 import numpy as np
@@ -8,16 +9,11 @@ import warnings
 warnings.filterwarnings("ignore")
 import time
 
-
 #path to training data
-source   = "development_set\\"   
-
-modelpath = "speaker_models\\"
-
+source   = "development_set/"   
+modelpath = "speaker_models/"
 test_file = "development_set_test.txt"        
-
 file_paths = open(test_file,'r')
-
 
 gmm_files = [os.path.join(modelpath,fname) for fname in 
               os.listdir(modelpath) if fname.endswith('.gmm')]
@@ -45,5 +41,3 @@ for path in file_paths:
     winner = np.argmax(log_likelihood)
     print "\tdetected as - ", speakers[winner]
     time.sleep(1.0)
-
-
