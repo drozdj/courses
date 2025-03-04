@@ -37,3 +37,7 @@ its claimed that the introduction of DNNs to speech recognition, versus GMMs, be
     - How have the research groups in ~2010 Uni of Toronto, Micosoft Research (MSR), Google, IBM Research found success in this transition? 
     - Haven't used python=2.7 much and would be fun to see the differences between python 2 and (modern) 3.
     - Simplest implementation to see how robust the model is.
+
+- **Findings?**
+    - given only 2, few-second clips, `Apple_Eater` will classify all 5 test clips correctly. 
+        - *(Note: this can be reproduced by replacing isolating a0052, a0053 for all 5 train rows in development_set_enroll.txt). this is necessary to avoid batches crossing into other speaker_models .gmm files during training)*
