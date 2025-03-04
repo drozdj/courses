@@ -1,0 +1,28 @@
+name: speaker-identification
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ca-certificates=2025.1.31=h8857fd0_0
+  - certifi=2019.11.28=py27h8c360ce_1
+  - libcxx=19.1.7=hf95d169_0
+  - libffi=3.2.1=hb1e8313_1007
+  - libsqlite=3.46.0=h1b8f9f3_0
+  - libzlib=1.2.13=h87427d6_6
+  - ncurses=6.5=h0622a9a_3
+  - openssl=1.1.1w=h8a1eda9_0
+  - pip=20.1.1=pyh9f0ad1d_0
+  - python=2.7.15=h8e446fc_1011_cpython
+  - python_abi=2.7=1_cp27m
+  - readline=8.2=h7cca4af_2
+  - setuptools=44.0.0=py27_0
+  - sqlite=3.46.0=h28673e1_0
+  - tk=8.6.13=h1abcd95_1
+  - wheel=0.37.1=pyhd8ed1ab_0
+  - zlib=1.2.13=h87427d6_6
+  - pip:
+      - numpy==1.16.6
+      - python-speech-features==0.6
+      - scikit-learn==0.17.1
+      - scipy==1.2.3
+prefix: /opt/homebrew/Caskroom/miniforge/base/envs/speaker-identification
