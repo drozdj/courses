@@ -1,5 +1,7 @@
 # ~/courses
 
-https://docs.google.com/document/d/1xTgsn83HpXogD6sARvR_k7ILqtGEznEmxv5s1YQop9E
+This is were i keep projects which i believe aren't worthy of an individual repo.
 
-Levelling Up in AI Safety Research Engineering [Personal]
+Its very large, so would highly recommend you *do not* fork or clone this repo.
+
+
