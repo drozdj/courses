@@ -1,1 +1,1 @@
-# ml-scalability-and-performance-reading-group
+# ML Scalability & Performance Reading Group (EleutherAI)
